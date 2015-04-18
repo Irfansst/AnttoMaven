@@ -62,9 +62,9 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 </pluginRepositories>
 <distributionManagement>
     <repository>
-        <id>release</id>
-          <name>ext-release</name>
-        <url>http://localhost:8080/artifactory/ext-release-local</url>
+        <id>release-candidate</id>
+          <name>release</name>
+        <url>http://localhost:8080/artifactory/release-candidate</url>
     </repository>
 <snapshotRepository>
         <id>snapshots</id>
